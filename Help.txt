@@ -1,0 +1,34 @@
+#first install git application on windows
+
+#open GitBash
+#create folder git on local disk:c
+
+# opening cmd
+cd /c
+cd git
+
+#Beginning Config
+git config --global user.name "Arun465"
+git config --global user.email arunsankar465@gmail.com
+git clone https://github.com/Arun465/Python-Projects
+
+
+
+#Removing Folder
+git rm --cache -r txtPatv3
+
+git status
+
+git commit -m "removed txtPatv3 folder"
+
+git push
+
+
+
+#Adding File 
+git add new.txt
+git status
+
+git commit -m "Tested ok"
+
+git push
