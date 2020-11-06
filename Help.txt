@@ -32,3 +32,5 @@ git status
 git commit -m "Tested ok"
 
 git push
+
+#git pull origin main
